@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 30px;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5;
+
+}
+#nav1 h3{
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+#nav1 i{
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+#nav2 h1{
+    font-weight: 500;
+    font-size: 30px;
+}
+#nav3 button{
+    padding: 7px 9px;
+    border:2px solid black;
+    border-radius: 20px;
+    font-size:large;
+    background-color: white;
+    font-weight: 700;
+}
+#nav3 #btn2{
+    background-color: rgb(251, 110, 59);
+    border: none;
+    color: white;
+    
+}
+#heading{
+    font-size: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+
+}
+img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 30px;
+    
+}
+#img1{
+    rotate: -5deg
+}
+#img2{
+    rotate: -15deg;
+}
+#img3{
+    rotate: -25deg;
+}
+#img4{
+    rotate: -40deg;
+}
+#btm_left{
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    font-size: large;
+    font-weight: 700;
+}
+#des{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    font-size: large;
+    font-weight: 700;
+}
